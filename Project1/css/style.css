@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: orange;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+#game {
+    background-color: purple;
+    display: inline-block;
+    margin: 0 auto;  
+}
+
+/* Determined the colors for the board of the game */
+
+.col {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+/* Styling the columns on the grid we have created */
+
+.col.empty {
+    cursor: pointer;
+}
+
+.next-red {
+    background-color: rgb(255,99,71);
+}
+
+.next-blue {
+    background-color: lightblue;
+}
+/* Determines the color for the hover states before player takes turn */
+
+.col.red {
+    background-color: red;
+}
+
+.col.blue {
+    background-color: blue;
+}
+/* Determines colors of token that player drops on their respective turns */
