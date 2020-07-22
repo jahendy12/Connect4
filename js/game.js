@@ -188,3 +188,4 @@ class Game {
         // restart button under game board
     }
 }
+
